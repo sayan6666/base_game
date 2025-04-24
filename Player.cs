@@ -13,7 +13,7 @@ namespace base_game
     {
         public Vector2 position;
         public Texture2D sprite;
-        private float speed=10;
+        public float speed=10;
 
         public Player(Vector2 position, string textureName) 
         {

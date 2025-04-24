@@ -32,6 +32,7 @@ namespace base_game
             //Globals._spriteBatch.Draw(bg, Vector2.Zero, Color.White);
             Model._map.Draw();
             Model._player.Draw();
+            Model._base.Draw();
             Globals._spriteBatch.End();
         }
     }

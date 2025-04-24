@@ -12,11 +12,11 @@ namespace base_game
     internal class Map
     {
         private Random rand;
-        private int size;
+        public int size;
         private int closeBorder;
         private int farBorder;
         private Tile[,] map;
-        private Tile tile1;
+        public Tile tile1;
         private Tile tile2;
         private Tile tile3;
 

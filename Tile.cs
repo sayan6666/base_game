@@ -11,7 +11,7 @@ namespace base_game
 {
     internal class Tile
     {
-        private int size;
+        public int size;
         private Texture2D sprite;
         private int type;
 
